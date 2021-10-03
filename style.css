@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(228, 205, 164);
+}
+#wrapper{
+    width: 960px;
+    margin: 20px auto;
+}
+#hedder{
+    background: orange;
+    padding: 10px 20px;
+    border-bottom: 5px solid rgb(14, 114, 5);
+}
+#hedder h2{
+    color: #fff;
+}
+#hedder p{
+    color: rgb(34, 126, 8);
+}
+#nav{
+    background: #fff;
+    border-bottom: 5px solid rgb(14, 114, 5);
+    height: 30px;
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    float: left;
+    border-right: 1px solid rgb(34, 126, 8);
+    padding: 5px 20px;
+    position: relative;
+}
+#nav ul li:last-child{
+    border: none;
+}
+#nav ul li a{
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(57, 148, 39);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#nav ul li a:hover{
+    color: rgb(8, 206, 25);
+}
+#nav ul ul{
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    margin-top: 3px;
+    display: none;
+}
+#nav li li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(34, 126, 8);
+}
+#nav li li:first-child{
+    border-top: 1px solid rgb(34, 126, 8);
+}
+#nav ul li:hover ul{
+    display: block;
+}
+#slider img{
+    width: 960px;
+    height: 505px;
+    vertical-align: middle;
+}
+#contend_wrapper{
+    background: #fff;
+    overflow: hidden;
+    padding: 20px;
+    border-top: 5px solid rgb(14, 114, 5);
+}
+#contend{
+    width: 630px;
+    float: left;
+}
+#contend h2{
+    color: rgb(57, 148, 39);
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contend p{
+    font-size: 18px;
+}
+#sidebar{
+    width: 260px;
+    float: left;
+    margin-left: 30px;
+}
+#sidebar h2{
+    color: rgb(57, 148, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+#sidebar ul{
+    list-style: square;
+    color: rgb(57, 148, 39);
+    margin-left: 15px;
+}
+#sidebar ul li{
+    margin-top: 5px;
+}
+#sidebar ul li a{
+    font-size: 20px;
+    color: black;
+}
+#footer{
+    background: rgb(85, 74, 54);
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
